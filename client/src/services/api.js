@@ -45,7 +45,7 @@ async function resolveChannel() {
     name: item.snippet.title,
     avatar: item.snippet.thumbnails?.high?.url || '',
     banner: bannerBase
-      ? `${bannerBase}=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj`
+      ? `${bannerBase}=w2560-h423-p-k-no-nu`
       : '',
     subscriberCount: formatCount(item.statistics.subscriberCount),
     videoCount: formatCount(item.statistics.videoCount),

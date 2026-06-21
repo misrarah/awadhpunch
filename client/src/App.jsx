@@ -33,7 +33,7 @@ export default function App() {
             <img
               src={channel.banner}
               alt="Channel banner"
-              className="w-full object-cover"
+              className="w-full object-cover object-top"
               style={{ maxHeight: 180, display: 'block' }}
             />
           </div>
